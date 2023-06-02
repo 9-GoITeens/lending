@@ -1,0 +1,94 @@
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+.link:hover,
+.link:focus{
+    color: #03A9F4;
+}
+
+/* header */
+.menu{
+    display: flex;
+}
+
+.menu .menu-item{
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.menu-tex{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.35;
+  
+    color: #7D7D7D;
+}
+
+/* Секція */
+.blog{}
+
+.blog-list{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.blog-item{
+
+}
+
+.blog-link{
+    font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 1.14;
+  
+        color: #B4AD9E;
+
+        display: block;
+}
+
+.blog-title{
+    font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 1.33;
+
+        color: #626262;
+}
+
+.blog-text{
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+    
+        color: #626262;
+        display: block;
+        width: 420px;
+}
+
+.blog-button{}
